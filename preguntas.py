@@ -118,6 +118,7 @@ def pregunta_04():
         "mlpregressor__learning_rate_init": [0.01, 0.05, 0,1],  
         "mlpregressor__max_iter": [5000],  
         "mlpregressor__early_stopping": [True],  
+        "mlpregressor__random_state": [12345]
     }
 
     estimator = pregunta_03()
